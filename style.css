@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: max-content;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btns {
+  margin-top: 40px;
+}
+
+.btn {
+  border: none;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  height: 40px;
+  width: 60px;
+  margin-left: 20px;
+  transform: translateY(-5px);
+  transition: transform 0.1s;
+}
+
+.btn:active {
+  transform: translateY(0);
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.6);
+}
+
+.btn-yes {
+  background-color: #f00;
+  color: #fff;
+}
+
+.btn-no {
+  background-color: yellow;
+  color: #000;
+  top: 0;
+}
+
+dialog {
+  display: none;
+  margin: 50% auto;
+  transform: translateY(-50%);
+}
+
+.show-dialog {
+  display: block;
+}
