@@ -45,8 +45,7 @@
 
 dialog {
   display: none;
-  margin: 50% auto;
-  transform: translateY(-50%);
+  margin: 30px auto;
 }
 
 .show-dialog {
